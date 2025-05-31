@@ -1,0 +1,33 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/clion-2023.3.4/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.1.0-13-amd64 - x86_64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/areeb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.1.0-13-amd64 - x86_64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/areeb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.1.0-13-amd64 - x86_64
+...
