@@ -29,10 +29,11 @@ public:
             PlaceY = PosY;
             Health = 1;
             EntitySprite.setPosition(PlaceX,PlaceY);
+            BombClock.restart();
         }
     }
     void Explode(int** Grid, Entity &player, Enemy** EnemyArr) {
-        if (BombClock.getElapsedTime() >= sf::Time(sf::seconds(8)) && Health){
+        if (BombClock.getElapsedTime() >= sf::Time(sf::seconds(4)) && Health){
             std::cout << "Started" << std::endl;
             if (CheckCollision(player))
                 player.setState(-1);
